@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #05060a;
+  color: #e5e7eb;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade-hidden {
+  opacity: 0;
+}
+.fade-visible {
+  opacity: 1;
+}
